@@ -31,6 +31,28 @@ export default function Project() {
           desc="Explorasi landing page"
         />
       </div>
+      <div className="lg:hidden flex flex-col px-10 py-10 space-y-6">
+        <ProjectItem
+          src="/project-1.png"
+          name="Hasten"
+          desc="Explorasi landing page"
+        />
+        <ProjectItem
+          src="/project-2.png"
+          name="Resource"
+          desc="Explorasi resource page"
+        />
+        <ProjectItem
+          src="/project-2.png"
+          name="Hasten"
+          desc="Explorasi landing page"
+        />
+        <ProjectItem
+          src="/project-1.png"
+          name="Hasten"
+          desc="Explorasi landing page"
+        />
+      </div>
     </>
   );
 }
